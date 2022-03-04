@@ -1,12 +1,15 @@
 body  {
     margin: 0;
-    background: linear-gradient(90deg, #DA0000, #FFE807);
+    background:url(Sticky-notes.jpg)no-repeat center center fixed; 
+    background-size: cover;
 }
 #app {
     display: grid;
     grid-template-columns: repeat(auto-fill, 285px);
     padding: 24px;
     gap: 24px;
+    
+
 }
 .note {
     height: 285px;
@@ -18,14 +21,16 @@ body  {
     resize: none;
     font-family: papyrus, fantasy;
     font-size: 20px;
+    
+
 }
 .add-note {
     height: 285px;
     border: none;
     outline: none;
-    background-color: rgba(0, 0, 0, 0.20);
+    background-color: rgba(0, 0, 0, 0.50);
     border-radius: 15px;
-    font-size: 50px;
+    font-size: 200px;
     color: rgba(0, 0, 0, 0.70);
     cursor: pointer;
 
@@ -34,5 +39,5 @@ body  {
 
 }
 .add-note:hover {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.6);
 } 
